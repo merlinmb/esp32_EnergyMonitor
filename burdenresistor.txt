@@ -1,0 +1,13 @@
+YHDC STC013 100A:0.05A
+
+
+Primary peak-current = RMS current × √2 = 100 A × 1.414 = 141.4A
+Secondary peak-current = Primary peak-current / no. of turns = 141.4 A / 2000 = 0.0707A
+
+
+*(Ideal burden resistance = (AREF/2) / Secondary peak-current = 2.5 V / 0.0707 A = 35.4 Ω)
+
+AREF = 3.326 (ESP32 3v Pin)
+/2 = 1.663v
+
+Ideal burden resistance = (AREF/2) / Secondary peak-current = 1.663 V / 0.0707 A = 23.5
